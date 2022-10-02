@@ -9,3 +9,9 @@ New versions of HarfBuzz no longer support BDF, so this is necessary. However, e
 * FontForge — not installable via Pip (as of 9 November 2021)!
 * [`bdflib`](https://pypi.org/project/bdflib/)
 * [`prettytable`](https://pypi.org/project/bdflib/)
+
+## Syntax
+
+bitmapfont2otb inputfile.bdf outputfile.ttf
+
+"Output format must be one of: otb, otf, ttf, ttb (file ext. mandatory)"
